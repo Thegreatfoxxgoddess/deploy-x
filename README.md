@@ -11,7 +11,7 @@ Repositório template para deploy do KannaX
 
 Exemplo:
 ```
-https://dashboard.heroku.com/new?template=https://github.com/fnixdev/deploy-x
+https://dashboard.heroku.com/new?template=https://github.com/thegreatfoxxgoddess/deploy-x
 ```
 ### Deploy to heroku
 
