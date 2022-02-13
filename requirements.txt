@@ -30,7 +30,7 @@ pytube
 rarfile>=4.0
 removebg>=0.4
 requests>=2.25.0
-git+https://github.com/fnixdev/search-engine-parser
+git+https://github.com/thegreatfoxxgoddess/search-engine-parser
 selenium==3.141.0
 setuptools>=40.3.0
 spamwatch>=0.3.0
@@ -54,4 +54,7 @@ youtube-search-python==1.4.2
 git+https://github.com/fnixdev/google-images-download.git
 feedparser>=6.0.2
 google_trans_new
-urbandict
+urbandict>=0.5
+gtts
+vcsi
+PyDictionary
