@@ -58,3 +58,5 @@ urbandict>=0.5
 gtts
 vcsi
 PyDictionary
+ffmpeg-python>=0.2.0
+ffmpeg
