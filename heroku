@@ -14,12 +14,12 @@ indent () {
 }
 
 _done () {
-    echo -e "Feito\n" | indent
+    echo -e "Done\n" | indent
 }
 
 _displaylogo () {
     echo '
-=== KannaX ===                              
+=== Paimon ===                              
 '
 }
 
@@ -48,13 +48,13 @@ get_ziplink () {
 _setup_repo () {
     local zippath
     zippath="$WORK_DIR/temp.zip"
-    disp "Buscando por atualização no Repo padrão"
+    disp "Checking for Update in Default Repo"
     wget -qq $(get_ziplink) -O "$zippath"
     _done
-    disp "Descompactando os Dados"
+    disp "Decompressing the Data"
     unzip -qq "$zippath" -d "$WORK_DIR"
     _done
-    disp "Processo de Limpeza"
+    disp "Cleaning Process"
     rm -rf "$zippath"
     _done
 }
@@ -63,9 +63,9 @@ _startbot () {
     local bot_dir
     bot_dir=$(cd $WORK_DIR && ls) && mv "$WORK_DIR/$bot_dir" "Kanna-X"
     rm -rf $WORK_DIR
-    cd "Kanna-X"
+    cd "Paimon"
     git init > /dev/null 2>&1
-    echo -e "===== Iniciando KannaX =====\n" | indent
+    echo -e "===== Starting Paimon =====\n" | indent
     bash run
 }
 
