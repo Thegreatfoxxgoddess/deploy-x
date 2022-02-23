@@ -61,7 +61,7 @@ _setup_repo () {
 
 _startbot () {
     local bot_dir
-    bot_dir=$(cd $WORK_DIR && ls) && mv "$WORK_DIR/$bot_dir" "Kanna-X"
+    bot_dir=$(cd $WORK_DIR && ls) && mv "$WORK_DIR/$bot_dir" "Paimon"
     rm -rf $WORK_DIR
     cd "Paimon"
     git init > /dev/null 2>&1
