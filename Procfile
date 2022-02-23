@@ -1,1 +1,1 @@
-kanna: bash run
+paimon: bash run
