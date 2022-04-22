@@ -1,7 +1,7 @@
 {
-    "name": "KannaX",
-    "description": "Kawaii userbot",
-    "logo": "https://telegra.ph/file/f84f9c790b22b18e63e2d.jpg",
+    "name": "Paimon",
+    "description": "Kawaii boot",
+    "logo": "https://telegra.ph/file/91a2741f7150196c977f9.jpg",
     "env": {
         "API_ID": {
             "description": "Get this value from https://my.telegram.org"
