@@ -60,6 +60,7 @@ feedparser
 google_trans_new
 urbandict>=0.5
 gtts
+yt_dlp
 vcsi
 PyDictionary
 ffmpeg-python>=0.2.0
