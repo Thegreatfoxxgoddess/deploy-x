@@ -1,7 +1,7 @@
 
-## KannaX - Deoloy
+## Paimon - Deploy
 
-Repositório template para deploy do KannaX
+repository for deploying the paimon
 
 ## Como usar
 
@@ -15,4 +15,4 @@ https://dashboard.heroku.com/new?template=https://github.com/thegreatfoxxgoddess
 ```
 ### Deploy to heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/thegreatfoxxgoddess/deploy-x)
