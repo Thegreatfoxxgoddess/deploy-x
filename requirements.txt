@@ -50,6 +50,7 @@ urbandict>=0.6.1
 wget>=3.2
 wikipedia>=1.4.0
 git+https://github.com/ytdl-org/youtube-dl
+yt_dlp
 git+https://github.com/Nekos-life/Async-nekos.life-wrapper
 ruamel.yaml==0.17.2
 python-rapidjson>=1.4
@@ -60,7 +61,6 @@ feedparser
 google_trans_new
 urbandict>=0.5
 gtts
-yt_dlp
 vcsi
 PyDictionary
 ffmpeg-python>=0.2.0
